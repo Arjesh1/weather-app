@@ -24,6 +24,25 @@ color: white;
 
 }
 
+.location .search{
+    width: 14rem;
+    height: 2rem;
+    border-radius: 15px;
+    text-align: center;
+} 
+
+.location .btn:hover{
+    background: black;
+    color: white;
+}
+
+.location .btn{
+    width: 5rem;
+    height: 2rem;
+    border-radius:15px ;
+    text-align: center;
+}
+
 .temperature{
     flex-direction: column;
 }
