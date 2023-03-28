@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Weather App</title>
 </head>
 <body>
     <div class="container">
         <div class="location">
+            <form action="" id="form">
             <input type="text" class="search" id="searchCity" placeholder="Search a city name"> 
             <button type="submit" class="btn">Search</button>
+        </form>
 
         </div>
-        <h1 class="city" id="city">Sydney</h1>
+        <h1 class="city" id="city"></h1>
         <div class="temperature">
             <div class="degree-section">
             <h2 class="temp-degree" id="temp">34</h2>
             <span>C</span>
 
         </div>
-            <div class="temp-description" id="description">Sunnny</div>
+
+        <div class="other">
+            <div class="temp-description"><i class="fa-solid fa-wind"></i><span id="wind"></span></div>
+
+            <div class="humidity"><i class="fa-solid fa-droplet"></i><span id="humidity"></span></div>
+
+        </div>
+
+
         </div>
     </div>
     
