@@ -61,3 +61,13 @@ color: white;
 .degree-section h2{
     font-size: 3rem;
 }
+
+.other{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.other i{
+    margin: 1rem;
+}
