@@ -26,8 +26,8 @@ color: white;
 
 .location .search{
     width: 14rem;
-    height: 2rem;
-    border-radius: 15px;
+    height: 3rem;
+    border-radius: 20px;
     text-align: center;
 } 
 
@@ -37,9 +37,9 @@ color: white;
 }
 
 .location .btn{
-    width: 5rem;
-    height: 2rem;
-    border-radius:15px ;
+    width: 3rem;
+    height: 3rem;
+    border-radius:100% ;
     text-align: center;
 }
 
