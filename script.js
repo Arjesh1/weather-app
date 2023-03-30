@@ -1,11 +1,10 @@
-
 let searchForm = document.getElementById("form");
 
 searchForm.addEventListener("click", (e) => {
     e.preventDefault();
 
     city= document.getElementById('searchCity').value
-    console.log(city);
+    
 
 
     
@@ -17,7 +16,7 @@ searchForm.addEventListener("click", (e) => {
         const response = await fetch (apiUrl + `&appid=${apiKey}`)
         let data = await response.json()
 
-        console.log(data);
+        
        
         document.getElementById('city').innerHTML=data.name
         document.getElementById('temp').innerHTML=Math.round(data.main.temp)
@@ -30,11 +29,4 @@ searchForm.addEventListener("click", (e) => {
     checkWeather()
 
 })
-
-
-
-    
-
-
-
 
